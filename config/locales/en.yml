@@ -1,0 +1,11 @@
+en:
+  layouts:
+    application:
+      title: Test application for Roonyx co.
+  goods:
+    index:
+      from: From
+      to: To
+      revenue: Revenue
+      no_date: There was not date passed!
+      wrong_sequence: Wrong dates sequence! From date cannot be bigger then to date.

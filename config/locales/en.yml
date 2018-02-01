@@ -1,4 +1,7 @@
 en:
+  layouts:
+    application:
+      title: Test application for Roonyx co.
   goods:
     index:
       no_date: There was not date passed!

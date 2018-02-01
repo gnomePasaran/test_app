@@ -3,7 +3,7 @@ class GoodsController < ApplicationController
 
   def index
     validation = date_validation
-    return respond_with( validation , status: 422) if validation != true
+    return respond_with(validation, status: 422) if validation != true
 
     @goods = Goods.from_to(params[:from], params[:to])
     respond_with serialized_goods
